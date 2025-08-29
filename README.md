@@ -14,7 +14,9 @@ Template oficial da **Popcode** para projetos Flutter, já configurado com boas 
 - **Segurança**:  
   - Variáveis de ambiente com [flutter_dotenv](https://pub.dev/packages/flutter_dotenv) (`.env`)  
 - **CI/CD**:  
-  - [GitHub Actions](https://docs.github.com/pt/actions) com *matrix build* para iOS e Android  
+  - [GitHub Actions](https://docs.github.com/pt/actions) com *matrix build* para iOS e Android
+- **Qualidade de Código**:  
+  - Arquivo **pre-commit** configurado para executar análises e testes antes de cada commit  
 
 ## 📦 Packages Utilizados
 
