@@ -1,0 +1,47 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    deprecated_member_use: ignore
+    no_wildcard_variable_uses: ignore
+    no_logic_in_create_state: ignore
+  language:
+    strict-inference: true
+    strict-raw-types: true
+  exclude:
+    - build/
+
+linter:
+  rules:
+    
+    depend_on_referenced_packages: false
+    always_put_required_named_parameters_first: true
+    always_declare_return_types: true
+    always_put_control_body_on_new_line: true
+    always_use_package_imports: true
+    avoid_bool_literals_in_conditional_expressions: true
+    avoid_field_initializers_in_const_classes: true
+    avoid_slow_async_io: true
+    avoid_unused_constructor_parameters: true
+    avoid_void_async: true
+    cancel_subscriptions: true
+    directives_ordering: true
+    lines_longer_than_80_chars: true
+    no_adjacent_strings_in_list: true
+    prefer_asserts_in_initializer_lists: true
+    omit_local_variable_types: true # opposite of always_specify_types
+    only_throw_errors: true
+    prefer_constructors_over_static_methods: true
+    prefer_expression_function_bodies: true
+    prefer_final_in_for_each: true
+    prefer_final_locals: true
+    prefer_foreach: true
+    prefer_if_elements_to_conditional_expressions: true
+    prefer_if_null_operators: true
+    prefer_single_quotes: true
+    sort_pub_dependencies: true
+    test_types_in_equals: true
+    unnecessary_lambdas: true
+    unnecessary_parenthesis: true
+    use_string_buffers: true # has false positives: https://github.com/dart-lang/sdk/issues/34182
+    #avoid_classes_with_only_static_members: true ####
